@@ -1,0 +1,32 @@
+.Weather {
+  padding: 20px;
+  border: 1px solid #c3c6ca;
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+  background: linear-gradient(-225deg, #5d9fff 0%, #b8dcff 48%, #6bbbff 100%);
+}
+
+.Weather .units {
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+  top: -12px;
+}
+
+.Weather ul li {
+  list-style: none;
+}
+
+.Weather .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.Weather .active:hover {
+  text-decoration: none;
+}
+
+#description {
+  text-transform: capitalize;
+}
