@@ -56,6 +56,7 @@ export default function Weather() {
             </em>
           </li>
         </ul>
+        <a href="https://github.com/akgraham/weather-react">Open-source code</a> <span className="signature">by Anolani Graham</span>
       </div>
   );
 }

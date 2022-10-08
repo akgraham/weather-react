@@ -18,6 +18,11 @@
   list-style: none;
 }
 
+.Weather a, .signature {
+  font-size: 13px;
+  
+}
+
 .Weather .active {
   color: rgb(33, 33, 33);
   cursor: default;
